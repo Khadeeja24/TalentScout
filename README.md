@@ -1,0 +1,2 @@
+# TalentScout
+TalentScout Hiring Assistan
