@@ -9,7 +9,7 @@ langchain-huggingface>=0.1.0
 
 # ── HuggingFace ───────────────────────────────────────────────────────────────
 huggingface-hub>=0.24.0
-transformers>=4.40.0
+
 
 # ── Database — Neon PostgreSQL ────────────────────────────────────────────────
 psycopg2-binary>=2.9.9      # includes SSL support for Neon
