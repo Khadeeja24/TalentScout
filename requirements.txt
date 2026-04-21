@@ -1,0 +1,25 @@
+# ── Core framework ────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── LangChain ────────────────────────────────────────────────────────────────
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.1.0
+
+# ── HuggingFace ───────────────────────────────────────────────────────────────
+huggingface-hub>=0.24.0
+transformers>=4.40.0
+
+# ── Database — Neon PostgreSQL ────────────────────────────────────────────────
+psycopg2-binary>=2.9.9      # includes SSL support for Neon
+
+# ── Security / encryption ────────────────────────────────────────────────────
+cryptography>=42.0.0
+
+# ── Configuration ─────────────────────────────────────────────────────────────
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+tenacity>=8.3.0
